@@ -340,17 +340,75 @@ FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
 FETCHCONTENT_QUIET:BOOL=ON
 
 //When not empty, overrides where to find pre-populated content
+// for GLAD
+FETCHCONTENT_SOURCE_DIR_GLAD:PATH=
+
+//When not empty, overrides where to find pre-populated content
 // for GLFW
 FETCHCONTENT_SOURCE_DIR_GLFW:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for linmath
+FETCHCONTENT_SOURCE_DIR_LINMATH:PATH=
 
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
+//Enables UPDATE_DISCONNECTED behavior just for population of GLAD
+FETCHCONTENT_UPDATES_DISCONNECTED_GLAD:BOOL=OFF
+
 //Enables UPDATE_DISCONNECTED behavior just for population of GLFW
 FETCHCONTENT_UPDATES_DISCONNECTED_GLFW:BOOL=OFF
 
+//Enables UPDATE_DISCONNECTED behavior just for population of linmath
+FETCHCONTENT_UPDATES_DISCONNECTED_LINMATH:BOOL=OFF
+
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
+
+//Include all extensions instead of those specified by GLAD_EXTENSIONS
+GLAD_ALL_EXTENSIONS:BOOL=OFF
+
+//API type/version pairs, like "gl=3.2,gles=", no version means
+// latest
+GLAD_API:STRING=
+
+//Value Computed by CMake
+GLAD_BINARY_DIR:STATIC=C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-build
+
+//Set export variables for external project
+GLAD_EXPORT:BOOL=ON
+
+//Path to extensions file or comma separated list of extensions,
+// if missing all extensions are included
+GLAD_EXTENSIONS:STRING=
+
+//Language to generate the binding for
+GLAD_GENERATOR:STRING=c
+
+//Generate installation target
+GLAD_INSTALL:BOOL=OFF
+
+//Value Computed by CMake
+GLAD_IS_TOP_LEVEL:STATIC=OFF
+
+//No loader
+GLAD_NO_LOADER:BOOL=OFF
+
+//Output directory
+GLAD_OUT_DIR:STRING=C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-build
+
+//OpenGL profile
+GLAD_PROFILE:STRING=compatibility
+
+//Reproducible build
+GLAD_REPRODUCIBLE:BOOL=OFF
+
+//Value Computed by CMake
+GLAD_SOURCE_DIR:STATIC=C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-src
+
+//Name of the spec or list of multiple specs (separated by semicolons).
+GLAD_SPEC:STRING=gl
 
 //Value Computed by CMake
 GLFW_BINARY_DIR:STATIC=C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glfw-build
@@ -586,6 +644,8 @@ DOXYGEN_DOT_EXECUTABLE-ADVANCED:INTERNAL=1
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DOXYGEN_MSCGEN_EXECUTABLE
 DOXYGEN_MSCGEN_EXECUTABLE-ADVANCED:INTERNAL=1
+//Details about finding Python
+FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[C:/Users/pilan/AppData/Local/Programs/Python/Python311/python.exe][cfound components: Interpreter ][v3.11.4()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
@@ -600,4 +660,15 @@ XINPUT_H_FOUND:INTERNAL=1
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/2DEngine
+//Compiler reason failure
+_Python_Compiler_REASON_FAILURE:INTERNAL=
+//Development reason failure
+_Python_Development_REASON_FAILURE:INTERNAL=
+//Path to a program.
+_Python_EXECUTABLE:INTERNAL=C:/Users/pilan/AppData/Local/Programs/Python/Python311/python.exe
+//Python Properties
+_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;4;64;32;;cp311-win_amd64;;C:\Users\pilan\AppData\Local\Programs\Python\Python311\Lib;C:\Users\pilan\AppData\Local\Programs\Python\Python311\Lib;C:\Users\pilan\AppData\Local\Programs\Python\Python311\Lib\site-packages;C:\Users\pilan\AppData\Local\Programs\Python\Python311\Lib\site-packages
+_Python_INTERPRETER_SIGNATURE:INTERNAL=e55b4d05d3aca1ff6dba2fa80ccc67b1
+//NumPy reason failure
+_Python_NumPy_REASON_FAILURE:INTERNAL=
 

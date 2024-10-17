@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/linmath-subbuild/CMakeFiles/linmath-populate"
+		},
+		{
+			"file" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/linmath-subbuild/CMakeFiles/linmath-populate.rule"
+		},
+		{
+			"file" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/linmath-subbuild/CMakeFiles/linmath-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/linmath-subbuild/linmath-populate-prefix/src/linmath-populate-stamp/linmath-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/linmath-subbuild/linmath-populate-prefix/src/linmath-populate-stamp/linmath-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/linmath-subbuild/linmath-populate-prefix/src/linmath-populate-stamp/linmath-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/linmath-subbuild/linmath-populate-prefix/src/linmath-populate-stamp/linmath-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/linmath-subbuild/linmath-populate-prefix/src/linmath-populate-stamp/linmath-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/linmath-subbuild/linmath-populate-prefix/src/linmath-populate-stamp/linmath-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/linmath-subbuild/linmath-populate-prefix/src/linmath-populate-stamp/linmath-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/linmath-subbuild/linmath-populate-prefix/src/linmath-populate-stamp/linmath-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"linmath-populate"
+		],
+		"name" : "linmath-populate"
+	}
+}

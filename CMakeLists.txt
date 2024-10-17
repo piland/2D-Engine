@@ -10,10 +10,14 @@ FetchContent_MakeAvailable(GLFW)
 
 set(CMAKE_CXX_STANDARD 20)
 
+include_directories(dependencies/include)
+
 add_executable(2DEngine
         main.cpp
         Circle.h
         Circle.cpp
+        dependencies/lib/glad.c
 )
 
+target_include_directories(2DEngine PRIVATE "C:/Users/pilan/Libraries/")
 target_link_libraries(2DEngine glfw)

@@ -52,16 +52,23 @@ build cmake_object_order_depends_target_2DEngine: phony || cmake_object_order_de
 build CMakeFiles/2DEngine.dir/main.cpp.obj: CXX_COMPILER__2DEngine_unscanned_Debug C$:/Users/pilan/CLionProjects/2DEngine/main.cpp || cmake_object_order_depends_target_2DEngine
   DEP_FILE = CMakeFiles\2DEngine.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/pilan/CLionProjects/2DEngine/dependencies/include -IC:/Users/pilan/Libraries -IC:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\2DEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\2DEngine.dir
 
 build CMakeFiles/2DEngine.dir/Circle.cpp.obj: CXX_COMPILER__2DEngine_unscanned_Debug C$:/Users/pilan/CLionProjects/2DEngine/Circle.cpp || cmake_object_order_depends_target_2DEngine
   DEP_FILE = CMakeFiles\2DEngine.dir\Circle.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/pilan/CLionProjects/2DEngine/dependencies/include -IC:/Users/pilan/Libraries -IC:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\2DEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\2DEngine.dir
+
+build CMakeFiles/2DEngine.dir/dependencies/lib/glad.c.obj: C_COMPILER__2DEngine_unscanned_Debug C$:/Users/pilan/CLionProjects/2DEngine/dependencies/lib/glad.c || cmake_object_order_depends_target_2DEngine
+  DEP_FILE = CMakeFiles\2DEngine.dir\dependencies\lib\glad.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/pilan/CLionProjects/2DEngine/dependencies/include -IC:/Users/pilan/Libraries -IC:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\2DEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles\2DEngine.dir\dependencies\lib
 
 
 # =============================================================================
@@ -71,7 +78,7 @@ build CMakeFiles/2DEngine.dir/Circle.cpp.obj: CXX_COMPILER__2DEngine_unscanned_D
 #############################################
 # Link the executable 2DEngine.exe
 
-build 2DEngine.exe: CXX_EXECUTABLE_LINKER__2DEngine_Debug CMakeFiles/2DEngine.dir/main.cpp.obj CMakeFiles/2DEngine.dir/Circle.cpp.obj | _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a
+build 2DEngine.exe: CXX_EXECUTABLE_LINKER__2DEngine_Debug CMakeFiles/2DEngine.dir/main.cpp.obj CMakeFiles/2DEngine.dir/Circle.cpp.obj CMakeFiles/2DEngine.dir/dependencies/lib/glad.c.obj | _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/glfw-build/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\2DEngine.dir

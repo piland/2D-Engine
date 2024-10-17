@@ -1,0 +1,21 @@
+# ninja log v6
+3	135	7509066677424085	glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir	e8b2bb055c5f8a82
+3	135	7509066677424085	C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir	e8b2bb055c5f8a82
+137	3229	7509066708340370	glad-populate-prefix/src/glad-populate-stamp/glad-populate-download	977e9127639dd9ed
+28	2220	7509067626482113	glad-populate-prefix/src/glad-populate-stamp/glad-populate-update	4c1e525afec2a183
+137	3229	7509066708340370	C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-download	977e9127639dd9ed
+28	2220	7509067626482113	C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-update	4c1e525afec2a183
+2220	2313	7509067649239180	glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch	f8560f4192db988e
+2220	2313	7509067649239180	C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch	f8560f4192db988e
+2400	2484	7509067650948697	glad-populate-prefix/src/glad-populate-stamp/glad-populate-build	f33ab7e736633c66
+2313	2400	7509067650120615	glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure	9fd63e45aaf08cb9
+2313	2400	7509067650120615	C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure	9fd63e45aaf08cb9
+2400	2484	7509067650948697	C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-build	f33ab7e736633c66
+2592	2688	7509067652990680	C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-test	7bc8ffd1ac2eb48c
+2484	2591	7509067652008457	glad-populate-prefix/src/glad-populate-stamp/glad-populate-install	a23fe1172af81cfe
+2484	2591	7509067652008457	C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-install	a23fe1172af81cfe
+2592	2688	7509067652990680	glad-populate-prefix/src/glad-populate-stamp/glad-populate-test	7bc8ffd1ac2eb48c
+2688	2828	7509067654404849	CMakeFiles/glad-populate-complete	871deda974f0189c
+2688	2828	7509067654404849	glad-populate-prefix/src/glad-populate-stamp/glad-populate-done	871deda974f0189c
+2688	2828	7509067654404849	C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-subbuild/CMakeFiles/glad-populate-complete	871deda974f0189c
+2688	2828	7509067654404849	C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-done	871deda974f0189c

@@ -1758,12 +1758,36 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "FETCHCONTENT_SOURCE_DIR_GLAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "When not empty, overrides where to find pre-populated content for GLAD"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
 			"name" : "FETCHCONTENT_SOURCE_DIR_GLFW",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
 					"value" : "When not empty, overrides where to find pre-populated content for GLFW"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "FETCHCONTENT_SOURCE_DIR_LINMATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "When not empty, overrides where to find pre-populated content for linmath"
 				}
 			],
 			"type" : "PATH",
@@ -1782,6 +1806,18 @@
 			"value" : "OFF"
 		},
 		{
+			"name" : "FETCHCONTENT_UPDATES_DISCONNECTED_GLAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables UPDATE_DISCONNECTED behavior just for population of GLAD"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "FETCHCONTENT_UPDATES_DISCONNECTED_GLFW",
 			"properties" : 
 			[
@@ -1792,6 +1828,30 @@
 			],
 			"type" : "BOOL",
 			"value" : "OFF"
+		},
+		{
+			"name" : "FETCHCONTENT_UPDATES_DISCONNECTED_LINMATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables UPDATE_DISCONNECTED behavior just for population of linmath"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Python",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Python"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[C:/Users/pilan/AppData/Local/Programs/Python/Python311/python.exe][cfound components: Interpreter ][v3.11.4()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
@@ -1820,6 +1880,174 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "C:/Program Files/Git/cmd/git.exe"
+		},
+		{
+			"name" : "GLAD_ALL_EXTENSIONS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Include all extensions instead of those specified by GLAD_EXTENSIONS"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "GLAD_API",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "API type/version pairs, like \"gl=3.2,gles=\", no version means latest"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "GLAD_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-build"
+		},
+		{
+			"name" : "GLAD_EXPORT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Set export variables for external project"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "GLAD_EXTENSIONS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to extensions file or comma separated list of extensions, if missing all extensions are included"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "GLAD_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Language to generate the binding for"
+				}
+			],
+			"type" : "STRING",
+			"value" : "c"
+		},
+		{
+			"name" : "GLAD_INSTALL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generate installation target"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "GLAD_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "GLAD_NO_LOADER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No loader"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "GLAD_OUT_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Output directory"
+				}
+			],
+			"type" : "STRING",
+			"value" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-build"
+		},
+		{
+			"name" : "GLAD_PROFILE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "OpenGL profile"
+				}
+			],
+			"type" : "STRING",
+			"value" : "compatibility"
+		},
+		{
+			"name" : "GLAD_REPRODUCIBLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Reproducible build"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "GLAD_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/pilan/CLionProjects/2DEngine/cmake-build-debug/_deps/glad-src"
+		},
+		{
+			"name" : "GLAD_SPEC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of the spec or list of multiple specs (separated by semicolons)."
+				}
+			],
+			"type" : "STRING",
+			"value" : "gl"
 		},
 		{
 			"name" : "GLFW_BINARY_DIR",
@@ -2000,6 +2228,78 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "C:/Program Files (x86)/2DEngine"
+		},
+		{
+			"name" : "_Python_Compiler_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Compiler reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "_Python_Development_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Development reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "_Python_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Users/pilan/AppData/Local/Programs/Python/Python311/python.exe"
+		},
+		{
+			"name" : "_Python_INTERPRETER_PROPERTIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Python Properties"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Python;3;11;4;64;32;;cp311-win_amd64;;C:\\Users\\pilan\\AppData\\Local\\Programs\\Python\\Python311\\Lib;C:\\Users\\pilan\\AppData\\Local\\Programs\\Python\\Python311\\Lib;C:\\Users\\pilan\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages;C:\\Users\\pilan\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
+		},
+		{
+			"name" : "_Python_INTERPRETER_SIGNATURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "e55b4d05d3aca1ff6dba2fa80ccc67b1"
+		},
+		{
+			"name" : "_Python_NumPy_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "NumPy reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
 		}
 	],
 	"kind" : "cache",
